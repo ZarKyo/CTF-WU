@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Dex-Location: classes.dex
+Build-Jdk: 1.7.0_111
+Built-By: jenkins
+Created-By: Apache Maven + dx 1.2
+Archiver-Version: Plexus Archiver
+
