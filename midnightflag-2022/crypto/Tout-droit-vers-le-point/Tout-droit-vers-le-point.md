@@ -31,11 +31,11 @@ Pour décoder le morse, 2 techniques sont possibles :
 
 - mettre le fichier audio dans audacity et mettre en spectogramme la piste, traduire en point et en trait puis traduire en lettre à l'aide de documentation
 
-![](./morse.jpg)
+![](./img/morse.jpg)
 
 #### Audio 1 - La clé
 
-![](./audio1.png)
+![](./img/audio1.png)
 
 `.. .   ---   . / .-.   . ..   -.-   ..-   .. .   . .` = CLE FRKUCO
 
@@ -45,7 +45,7 @@ On comprend que cet audio sert à nous donner la clé.
 
 Après avoir décodé le premier audio, on en déduit que celui-ci sert à compléter la grille.
 
-![](./audio2.png)
+![](./img/audio2.png)
 
 `..... -- -.- .. .. -.-.` = P M K Y J
 
