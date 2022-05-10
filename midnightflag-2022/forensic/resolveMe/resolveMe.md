@@ -22,7 +22,7 @@ On a de la base64, ave cyberchef on décode la base64 et on se retrouve avec un 
 
 On a juste à ouvrir le pdf pour avoir le flag 
 
-[](./img/flag.png)
+![](./img/flag.png)
 
 **Flag : MCTF{K1ND_3XF1LTR4T1ON_BAS3D_ON_DNS_PDF}**
 

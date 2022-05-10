@@ -14,11 +14,11 @@ On a un fichier **pcapng** à analyser, on ouvre donc le fichier avec wireshark
 
 On regarde un peu les requêtes, on remarque une requête d'une taille important par rapport aux autres
 
-[](./img/1.png)
+![](./img/1.png)
 
 On remarque dans les données **png**
 
-[](./img/2.png)
+![](./img/2.png)
 
 Il suffit d'exporter les données `fichier > exporter paquet octet > flag.png`
 

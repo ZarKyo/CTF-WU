@@ -355,7 +355,7 @@ J'ai ensuite découvert l'outil **photorec** (qui aura été bien plus concluant
 sudo photorec /dev/mapper/ubuntu--vg-ubuntu--lv
 ```
 
-[](./img/photorecup.png)
+![](./img/photorecup.png)
 
 On récupère énormement de fichier donc on va essayer simplifier un peu les recherches
 

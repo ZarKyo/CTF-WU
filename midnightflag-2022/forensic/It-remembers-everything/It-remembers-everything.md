@@ -115,7 +115,7 @@ Avec Gimp, on ouvre le fichier en `Données d’image RAW/RAW Image Data`
 
 Il faut jouer avec les valeurs pour trouver le flag
 
-[](./img/flag.png)
+![](./img/flag.png)
 
 **Flag : MCTF{M3m0rY_DuMP}**
 
