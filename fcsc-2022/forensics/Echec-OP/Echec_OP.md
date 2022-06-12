@@ -37,7 +37,7 @@ fcsc.raw3  1861632 20969471 19107840  9,1G Linux filesystem
 
 ## Échec OP 1/3
 
-Difficulté : :start:
+Difficulté : :star:
 
 ### Ennoncé
 
