@@ -25,5 +25,3 @@ On a juste à ouvrir le pdf pour avoir le flag
 ![](./img/flag.png)
 
 **Flag : MCTF{K1ND_3XF1LTR4T1ON_BAS3D_ON_DNS_PDF}**
-
-

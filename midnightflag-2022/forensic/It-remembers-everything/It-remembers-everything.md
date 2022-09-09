@@ -9,7 +9,7 @@ Difficulté : facile
 ### Enoncé
 
 > Lors d'un raid sur un camp ennemi, nous avons tout juste eu le temps de dump la mémoire d'un ordinateur avant que celle-ci ne soit effacée. Malheureusement, nous n'avons aucune information sur la manière dont la machine était utilisée. Retrouvez le nom de l'utilisateur ainsi que celui de la machine.
->
+> 
 > Format : MCTF{nomutilisateur:nommachine}
 
 ```shell
@@ -29,7 +29,7 @@ INFO    : volatility.debug    : Determining profile based on KDBG search...
              KUSER_SHARED_DATA : 0xfffff78000000000L
            Image date and time : 2022-04-09 12:18:42 UTC+0000
      Image local date and time : 2022-04-09 14:18:42 +0200
-                                                                                                                                      
+
 
 └─$ ./vol2 -f chall.raw --profile=Win7SP1x64 hivelist
 Volatility Foundation Volatility Framework 2.6
