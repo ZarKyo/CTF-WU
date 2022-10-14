@@ -144,9 +144,9 @@ Avec un peu de guessing on trouve le password du Wifi.
 
 **Pass du wifi : #4ckVens22!CTF**
 
-Maintenant, il faut trouver l'URL sur laquelle se connecter. Par défaut, une URL est définie : http://192.168.4.1
+Maintenant, il faut trouver l'URL sur laquelle se connecter. Selon la documentation, une URL est définie par défaut : http://192.168.4.1
 
-Ici l'URL est différente :
+Or ici l'URL est différente car l'objet connecté a déjà été configuré :
 
 ```shell
 strings plain-firmware.bin | grep -i -A 10 -B 10 192.168.  
