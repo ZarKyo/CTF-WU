@@ -17,10 +17,10 @@ Difficulté : :star:
 > - nom de la machine,
 > - navigateur utilisé.
 >
-> Le flag est au format FCSC{<nom d'utilisateur>:<nom de la machine>:<nom du navigateur>} où :
-> - <nom d'utilisateur> est le nom de l'utilisateur qui utilise la machine,
-> - <nom de la machine> est le nom de la machine analysée et
-> - <nom du navigateur> est le nom du navigateur en cours d'exécution.
+> Le flag est au format FCSC{nom d'utilisateur:nom de la machine:nom du navigateur} où :
+> - nom d'utilisateur est le nom de l'utilisateur qui utilise la machine,
+> - nom de la machine est le nom de la machine analysée et
+> - nom du navigateur est le nom du navigateur en cours d'exécution.
 >
 > Par exemple : FCSC{toto:Ordinateur-de-jojo:Firefox}.
 >
@@ -570,9 +570,9 @@ Difficulté : :star: :star:
 
 > Ouf, vous avez pu récupérer votre précieux fichier. Vous enquêtez maintenant sur l'origine de ce chiffrement.
 >
-> Le flag est au format FCSC{<pid>:<protocole>:<port>} où :
-> - <pid> est l'ID du processus qui a déposé et exécuté le chiffreur et
-> - <protocole> et <port> sont les paramètres de la connexion avec le C2.
+> Le flag est au format FCSC{pid:protocole:port} où :
+> - pid est l'ID du processus qui a déposé et exécuté le chiffreur et
+> - protocole et port sont les paramètres de la connexion avec le C2.
 >
 > Attention : pour cette épreuve, vous n'avez que 10 tentatives de flag.
 
@@ -718,9 +718,9 @@ Difficulté : :star: :star: :star:
 
 > Vous ne comprenez pas comment l'agent que vous avez trouvé dans Ransomémoire 2/3 - Début d'investigation a pu se retrouver sur la machine (Note : il n'est pas nécessaire d'avoir résolu ce challenge pour résoudre Ransomémoire 3/3 - Doppelgänger). Vous suspectez la présence d'un agent dormant, qui se cache en mémoire...
 >
-> Le flag est au format FCSC{<pid>:<ip>:<port>} où :
-> - <pid> est l'ID du processus malveillant
-> - <ip> et <port> sont les paramètres de la connexion avec le C2.
+> Le flag est au format FCSC{pid:ip:port} où :
+> - pid est l'ID du processus malveillant
+> - ip et port sont les paramètres de la connexion avec le C2.
 >
 > Attention : pour cette épreuve, vous n'avez que 3 tentatives de flag.
 

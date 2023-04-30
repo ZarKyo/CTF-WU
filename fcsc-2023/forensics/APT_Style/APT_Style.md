@@ -24,7 +24,7 @@ Difficulté : :star: :star: :star:
 >
 > Quel groupe d'attaquants emploie une méthode similaire ? Le format attendu est UNCXXXX.
 >
-> Le flag final est au format FCSC{<chemin>:UNCXXXX}
+> Le flag final est au format FCSC{chemin:UNCXXXX}
 
 ### Solve
 
@@ -260,7 +260,7 @@ Difficulté : :star: :star: :star:
 >
 > Quel groupe d'attaquant emploie une méthode similaire ? La réponse attendue est le nom du groupe.
 >
-> Le flag est au format FCSC{<chemin>:<nom du groupe>}.
+> Le flag est au format FCSC{chemin:nom du groupe}.
 
 ### Solve
 
@@ -287,7 +287,7 @@ Difficulté : :star:
 
 ### Énoncé
 
-> Quel fichier est utilisé comme base de timestomp des fichiers malveillants ? La réponse attendue est le chemin complet du fichier au format : FCSC{<chemin>}.
+> Quel fichier est utilisé comme base de timestomp des fichiers malveillants ? La réponse attendue est le chemin complet du fichier au format : FCSC{chemin}.
 
 ### Solve
 
@@ -332,7 +332,7 @@ Difficulté : :star:
 
 > *Note : il semblerait que l'attaquant ait supprimé de son répertoire en ligne la DLL malveillante... L'administrateur ayant observé les comportements malveillants a fait l'installation le 15/03/2023*
 > 
-> Quel est le numéro de série du certificat ayant servi à signer la DLL malveillante ? La réponse attentue est au format FCSC{<numéro de série>}.
+> Quel est le numéro de série du certificat ayant servi à signer la DLL malveillante ? La réponse attentue est au format FCSC{numéro de série}.
 
 ### Solve
 
@@ -494,7 +494,7 @@ Difficulté : :star:
 
 > *Note : il semblerait que l'attaquant ait supprimé de son répertoire en ligne la DLL malveillante ... L'administrateur ayant observé les comportements malveillants a fait l'installation le 15/03/2023*
 >
-> Quelle machine est ciblée par la charge malveillante ? La réponse attendue est le nom de la machine au format FCSC{<nom>}.
+> Quelle machine est ciblée par la charge malveillante ? La réponse attendue est le nom de la machine au format FCSC{nom}.
 
 ### Solve
 
