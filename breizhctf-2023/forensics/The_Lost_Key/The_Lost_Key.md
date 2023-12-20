@@ -4,7 +4,7 @@ Difficulté : Facile
 
 Auteur: Zeecka
 
-## Énnoncé
+## Énoncé
 
 > La clé USB d'un terroriste normand a été récupérée. Investiguez son support pour l'empêcher de passer à l'acte !
 
